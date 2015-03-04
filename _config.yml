@@ -4,7 +4,7 @@ title: "David Strain"
 
 
 paginate: 3 #articles per page
-paginate_path: /blog/page:num #makes pagination working
+paginate_path: /notes/page:num #makes pagination working
 
 
 #contacts
