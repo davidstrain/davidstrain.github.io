@@ -144,11 +144,26 @@ a small {
 }
 
 a#git-ic{
-  font-size:37px;
+  font-size:32px;
   color:#fff;
 }
 
 a#so-ic{
+  font-size:32px;
+  color:#fff;
+}
+
+a#li-ic{
+  font-size:32px;
+  color:#fff;
+}
+
+a#tw-ic{
+  font-size:32px;
+  color:#fff;
+}
+
+a#email-ic{
   font-size:32px;
   color:#fff;
 }

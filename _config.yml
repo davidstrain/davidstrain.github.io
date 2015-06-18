@@ -9,8 +9,9 @@ paginate_path: /notes/page:num #makes pagination working
 
 #contacts
 git: "https://github.com/davidstrain"  #Add your github url here.
-stackoverflow: "" #Add your stackoverflow url here.
-twitter: ""  #Add your twitter url here.
+stackoverflow: "http://stackoverflow.com/users/5025745/david" #Add your stackoverflow url here.
+linkedin: "https://uk.linkedin.com/in/davidrjstrain"
+twitter: ""
 
 #disqus comment
 disqus:
@@ -24,6 +25,7 @@ google:
 
 # This is used by feed.xml. Uncomment if you want to use it.
 # description: "..."
+highlighter: rouge
 
 exclude:
   - "README.md"
@@ -44,3 +46,9 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

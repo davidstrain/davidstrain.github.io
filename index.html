@@ -5,5 +5,28 @@ layout: welcome
 
  <div class="text-center">        
   <img src="http://www.doppelme.com/DM1300255FD2/avatar.gif?background=222A30">
-  <p><a href="mailto:info@strain.me">Contact Me </a></p>
+  <p>
+		<a id="email-ic" href="mailto:info@strain.me"><i class="fa fa-envelope-o"></i></a>	
+		
+		{% unless site.git == "" %}
+			&nbsp
+			<a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>	
+		{% endunless %}
+
+		{% unless site.stackoverflow == "" %}
+			&nbsp
+			<a id="so-ic" href="{{site.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a>
+		{% endunless %}
+		
+		{% unless site.linkedin == "" %}
+			&nbsp
+			<a id="li-ic" href="{{site.linkedin}}"><i class="fa fa-linkedin"></i></a>
+		{% endunless %}
+		
+		{% unless site.twitter == "" %}
+			&nbsp
+			<a id="tw-ic" href="{{site.twitter}}"><i class="fa fa-twitter fa-lg" ></i></a>
+		{% endunless %}
+		
+    </p>
 </div>

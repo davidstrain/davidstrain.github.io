@@ -5,11 +5,30 @@
     Built with <a href="http://jekyllrb.com/">Jekyll</a> and
     <a href="https://github.com/railsr/autm-rb">Autm-rb</a>
   </div>
-
+		
   <div class="right">
-    {% unless site.twitter == "" %}
-      <a href="{{site.twitter}}"><i class="fa fa-twitter fa-lg" style="color:#49B1F7;"></i></a>
-    </a>
-    {% endunless %}
+  <p>
+		<a id="email-ic" href="mailto:info@strain.me"><i class="fa fa-envelope-o"></i></a>	
+		
+		{% unless site.git == "" %}
+			&nbsp
+			<a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>	
+		{% endunless %}
+
+		{% unless site.stackoverflow == "" %}
+			&nbsp
+			<a id="so-ic" href="{{site.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a>
+		{% endunless %}
+		
+		{% unless site.linkedin == "" %}
+			&nbsp
+			<a id="li-ic" href="{{site.linkedin}}"><i class="fa fa-linkedin"></i></a>
+		{% endunless %}
+		
+		{% unless site.twitter == "" %}
+			&nbsp
+			<a id="tw-ic" href="{{site.twitter}}"><i class="fa fa-twitter fa-lg" ></i></a>
+		{% endunless %}
+	</p>
   </div>
 </footer>
