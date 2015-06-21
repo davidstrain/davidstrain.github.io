@@ -25,7 +25,7 @@ google:
 
 # This is used by feed.xml. Uncomment if you want to use it.
 # description: "..."
-highlighter: rouge
+highlighter: pygments
 
 exclude:
   - "README.md"
@@ -47,8 +47,8 @@ defaults:
     values:
       layout: "post"
 
-markdown: kramdown
+#markdown: kramdown
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+#kramdown:
+#  input: GFM
+#  syntax_highlighter: pygments
