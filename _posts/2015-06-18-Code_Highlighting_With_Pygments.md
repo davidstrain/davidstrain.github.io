@@ -3,7 +3,7 @@ title: "Code Highlighting With Pygments"
 tags: [pygments,jekyll]
 ---
 
-Just an example of how to highlight code with Pygments in Jekyll. More info can be found at the below link. <br/>
+Examples of code highlighting using Pygments in Jekyll. More info at the below link. <br/>
 [http://josephmansfield.uk/articles/custom-syntax-highlighting-jekyll-pygments.html](http://josephmansfield.uk/articles/custom-syntax-highlighting-jekyll-pygments.html)
 
 
