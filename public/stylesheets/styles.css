@@ -306,8 +306,17 @@ section #title .credits.right {
   float: right;
 }
 
+section #title .credits.center {
+  text-align: center;
+}
+
 .section-header-archive, .tag_name{
-	margin:  15px 0 0 0;	
+  text-align: center;
+  margin-top: 10px;
+}
+
+article{
+  text-align: center;
 }
 
 footer .left{
@@ -316,6 +325,24 @@ footer .left{
 
 footer .right{
   float: right;
+}
+
+footer .center{
+  float: center;
+  text-align: center
+}
+
+.view-by-tags {
+    text-align: center;
+}
+
+.view-by-tags a{
+    text-align: center;
+    color: #777777;
+}
+
+.view-by-tags a:hover {
+  color: #EC4E3B; 
 }
 
 .paginate{
@@ -329,10 +356,16 @@ footer .right{
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #A3BFC6;
+  text-align: center;
+}
+
+.resume h2{
+    text-align: center;
 }
 
 .tags{
  font-size: 13px;
+ text-align: center;
 }
 
 .tags a {
